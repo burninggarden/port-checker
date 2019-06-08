@@ -1,7 +1,7 @@
 {
 	"name": "@burninggarden/port-checker",
 	"description": "Utility for checking whether a particular port is open on a host",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"private": false,
 	"author": "Burning Garden",
 	"homepage": "https://burninggarden.com",
@@ -20,10 +20,10 @@
 		"eslint": "^5.15.3"
 	},
 	"scripts": {
-		"install":     "./bin/install",
-		"test":        "./bin/test",
-		"lint":        "./bin/lint",
-		"preversion":  "./bin/preversion",
+		"install": "./bin/install",
+		"test": "./bin/test",
+		"lint": "./bin/lint",
+		"preversion": "./bin/preversion",
 		"postversion": "./bin/postversion"
 	}
 }
