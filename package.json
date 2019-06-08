@@ -8,6 +8,8 @@
 	"repository": "https://github.com/burninggarden/port-checker",
 	"main": "./dist/src/index.js",
 	"dependencies": {
+		"@burninggarden/enums": "0.0.8",
+		"@burninggarden/promise-wrapper": "0.0.1",
 		"@types/node": "10.9.4",
 		"tap": "^12.6.1",
 		"typescript": "3.2.1"
