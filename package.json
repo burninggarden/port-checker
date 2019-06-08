@@ -1,11 +1,11 @@
 {
-	"name": "@burninggarden/botanist",
-	"description": "Development project and server manager",
+	"name": "@burninggarden/port-checker",
+	"description": "Utility for checking whether a particular port is open on a host",
 	"version": "0.0.1",
 	"private": false,
 	"author": "Burning Garden",
 	"homepage": "https://burninggarden.com",
-	"repository": "https://github.com/burninggarden/botanist",
+	"repository": "https://github.com/burninggarden/port-checker",
 	"main": "./dist/src/index.js",
 	"dependencies": {
 		"@types/node": "10.9.4",
@@ -18,10 +18,10 @@
 		"eslint": "^5.15.3"
 	},
 	"scripts": {
-		"install": "./bin/install",
-		"test": "./bin/test",
-		"lint": "./bin/lint",
-		"preversion": "./bin/preversion",
+		"install":     "./bin/install",
+		"test":        "./bin/test",
+		"lint":        "./bin/lint",
+		"preversion":  "./bin/preversion",
 		"postversion": "./bin/postversion"
 	}
 }
